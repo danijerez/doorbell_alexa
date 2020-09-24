@@ -35,6 +35,7 @@ Este proyecto hara que Alexa te avise cada vez que alguien llame al timbre envia
 | estaño para soldar |<img src="img/tool/tin.jpg" width="20%"/> | Lo usaremos para soldar los componentes.  |
 | soldador de estaño |<img src="img/tool/welder.jpg" width="20%"/>  | Vale cualquier soldador, aunque recomiendo la marca JBC.  |
 | cable mini-usb  |<img src="img/tool/cab_micro_usb.jpg" width="20%"/>|Necesario para poder flashear el código al Wemos D1 Mini.|
+| clema x4  |<img src="img/tool/clema.jpg" width="20%"/>| Necesaria para conectar el circuito al timbre/corriente. |
 
 # Preparación
 
