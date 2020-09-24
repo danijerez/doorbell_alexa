@@ -42,10 +42,10 @@ Pasos previos antes de construir el dispositivo
 
 |   |   |   |
 |---|---|---|
-|  0 | <img src="img/icos/smartnest.png" width="40%"/>  | Recomiendo ver el video tutorial del que me base donde viene todo el proceso explicado: https://www.youtube.com/watch?v=cgfVXPfCgkc  |
-|  1 | <img src="img/icos/smartnest.png" width="40%"/>  | Nos registramos en <a href="https://www.smartnest.cz/index/ES">Smartnest</a> y creamos un dispositivo Timbre  |
-|  2 | <img src="img/icos/alexa.png" width="40%"/>  | Desde la configuracion de Alexa (App movil o web) vinculamos nuestra cuenta Smartnest y elegimos el dispositivo que notificará |
-|  3 | <img src="https://www.arduino.cc/en/pub/skins/arduinoWide/img/ArduinoAPP-01.svg" width="40%"/>  | Con las credenciales generadas de Smartnest, y nuestra configuración de Wifi, modificamos en el codigo la siguiente sección:|
+|  0 | <img src="img/icos/smartnest.png" width="30%"/>  | Recomiendo ver el video tutorial del que me base donde viene todo el proceso explicado: https://www.youtube.com/watch?v=cgfVXPfCgkc  |
+|  1 | <img src="img/icos/smartnest.png" width="30%"/>  | Nos registramos en <a href="https://www.smartnest.cz/index/ES">Smartnest</a> y creamos un dispositivo Timbre  |
+|  2 | <img src="img/icos/alexa.png" width="30%"/>  | Desde la configuracion de Alexa (App movil o web) vinculamos nuestra cuenta Smartnest y elegimos el dispositivo que notificará |
+|  3 | <img src="https://www.arduino.cc/en/pub/skins/arduinoWide/img/ArduinoAPP-01.svg" width="30%"/>  | Con las credenciales generadas de Smartnest, y nuestra configuración de Wifi, modificamos en el codigo la siguiente sección:|
 
 ``` #define SSID_NAME "Wifi-name"               // Your Wifi Network name
 #define SSID_PASSWORD "Wifi-password"           // Your Wifi network password
@@ -61,9 +61,25 @@ Pasos previos antes de construir el dispositivo
 El proceso que yo segui es el siguiente
 |   |   |   |
 |---|---|---|
-|  1 | <img src="https://www.arduino.cc/en/pub/skins/arduinoWide/img/ArduinoAPP-01.svg" width="40%"/>  | Instalar la libreria PubSubClient en el IDE - <a href="https://github.com/knolleary/pubsubclient">ver codigo</a> .  |
-|  2 | <img src="https://www.arduino.cc/en/pub/skins/arduinoWide/img/ArduinoAPP-01.svg" width="40%"/>  | Flashear el codigo en el arduino nano - <a href="https://github.com/danijerez/doorbell_alexa/blob/master/doorbell/doorbell.ino">ver codigo</a> .  |
+|  1 | <img src="https://www.arduino.cc/en/pub/skins/arduinoWide/img/ArduinoAPP-01.svg" width="30%"/>  | Instalar la libreria PubSubClient en el IDE - <a href="https://github.com/knolleary/pubsubclient">ver codigo</a> .  |
+|  2 | <img src="https://www.arduino.cc/en/pub/skins/arduinoWide/img/ArduinoAPP-01.svg" width="30%"/>  | Flashear el codigo en el arduino nano - <a href="https://github.com/danijerez/doorbell_alexa/blob/master/doorbell/doorbell.ino">ver codigo</a> .  |
+|  3  | (opcional) |Seguimos el siguiente esquema para preparar el circuito que protegerá al Wemos D1 |
 
+ <img src="img/arduino/circuito.png" width="80%"/> 
+
+* Si tu timbre tiene una salida de 230V tendras que poner un transformador (230v - 5v). Recuerda que el wemos D1 mini tambien tiene que estar alimentado por 5v en el pin 5v.
+Yo utilice dos cagadores de moviles antiguos para solventar esto.
+
+
+<img src="img/photos/foto1.jpg" width="20%"/> <img src="img/photos/foto2.jpg" width="30%"/> <img src="img/photos/foto3.jpg" width="30%"/>  
+
+<img src="img/photos/foto4.jpg" width="20%"/><img src="img/photos/foto5.jpg" width="40%"/>   
+
+* Este seria el resultado añadiendo un transformador mas
+
+<img src="img/photos/foto6.jpg" width="40%"/>   
+
+* Puedes meter todo el conjunto en una caja si no quieres que se vea.
 
 # Pruebas
 
