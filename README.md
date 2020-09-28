@@ -1,7 +1,8 @@
-# Doorbell Alexa (En Construcción)
+# Doorbell Alexa
 
 ¿Te ha pasado alguna vez que estas tan concentrado con tu trabajo con los cascos y no escuchas el timbre de la puerta? 
-Este proyecto hara que Alexa te avise cada vez que alguien llame al timbre enviando una notificacion a tu dispositivo Echo.
+
+Este proyecto hará que Alexa te avise cada vez que alguien llame al timbre, enviando una notificacion a tu dispositivo Echo.
 
 # Hardware
 
@@ -69,7 +70,7 @@ El proceso que yo segui es el siguiente
  <img src="img/arduino/circuito.png" width="80%"/> 
 
 * Si tu timbre tiene una salida de 230V tendras que poner un transformador (230v - 5v). Recuerda que el wemos D1 mini tambien tiene que estar alimentado por 5v en el pin 5v.
-Yo utilice dos cagadores de moviles antiguos para solventar esto.
+Yo utilice dos cagadores de moviles antiguos para solventar esto. Te recomiendo que hagas algunas pruebas antes de instalar todo, como muestro en los videos.
 
 
 <img src="img/photos/foto1.jpg" width="20%"/> <img src="img/photos/foto2.jpg" width="30%"/> <img src="img/photos/foto3.jpg" width="30%"/>  
@@ -86,9 +87,10 @@ Yo utilice dos cagadores de moviles antiguos para solventar esto.
 
 Dejo algunos videos de prueba mientras hice el proyecto, espero que os guste!
 
-|   |   |   |
-|---|---|---|
-|[<img src="img/icos/youtube.png" width="10%"/>](https://youtu.be/0RNIjLOwQlc "test - alexa doorbell")|||
+|   |   | 
+|---|---|
+|[<img src="img/icos/youtube.png" width="20%"/>](https://youtu.be/0RNIjLOwQlc "test 1 - alexa doorbell")| Probando el funcionamiento del timbre con una pila|
+|[<img src="img/icos/youtube.png" width="20%"/>](https://youtu.be/eLEP1y79GZg "test 2 - alexa doorbell")| Probando el timbre simulando la pulsacion y conectado a la corriente |
 
 
 # Documentación
