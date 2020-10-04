@@ -83,6 +83,11 @@ Yo utilice dos cagadores de moviles antiguos para solventar esto. Te recomiendo 
 
 * Puedes meter todo el conjunto en una caja si no quieres que se vea.
 
+<img src="img/photos/foto7.jpg" width="40%"/>   
+<img src="img/photos/foto8.jpg" width="37%"/>   
+
+* La instalación se puede hacer al lado del timbre/telefonillo
+
 # Pruebas
 
 Dejo algunos videos de prueba mientras hice el proyecto, espero que os guste!
@@ -91,7 +96,6 @@ Dejo algunos videos de prueba mientras hice el proyecto, espero que os guste!
 |---|---|
 |[<img src="img/icos/youtube.png" width="20%"/>](https://youtu.be/0RNIjLOwQlc "test 1 - alexa doorbell")| Probando el funcionamiento del timbre con una pila|
 |[<img src="img/icos/youtube.png" width="20%"/>](https://youtu.be/eLEP1y79GZg "test 2 - alexa doorbell")| Probando el timbre simulando la pulsacion y conectado a la corriente |
-
 
 # Documentación
 
