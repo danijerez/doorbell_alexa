@@ -1,46 +1,48 @@
-# Doorbell Alexa
+# 🛎️ Doorbell Alexa
 
-¿Te ha pasado alguna vez que estas tan concentrado con tu trabajo con los cascos y no escuchas el timbre de la puerta? 
+### 🥸 ¿Te ha pasado alguna vez que estas tan concentrado con tu trabajo con los cascos y no escuchas el timbre de la puerta? 
 
-Este proyecto hará que Alexa te avise cada vez que alguien llame al timbre, enviando una notificacion a tu dispositivo Echo.
+### ⏰ Este proyecto hará que Alexa te avise cada vez que alguien llame al timbre, enviando una notificacion a tu dispositivo Echo.
 
-# Hardware
+# 🖖 [![Twitter Follow](https://img.shields.io/twitter/follow/d4nijerez?style=social)](https://twitter.com/d4nijerez) ![GitHub Followers](https://img.shields.io/github/followers/danijerez?style=social)
 
-### Necesario para darle vida
+## 🧩 Componentes
+Wemos D1 Mini
+<a href="https://www.amazon.es/AZDelivery-D1-Mini-desarrollo-compatible/dp/B0754N794H">
+    <img src="img/arduino/wemos_d1_mini.jpg">
+</a>
 
-|   |   |   |   |
-|---|---|---|---|
-| Wemos D1 Mini |<img src="img/arduino/wemos_d1_mini.jpg" width="50%"/>|[<img src="img/icos/carrito.png" width="20%"/>](https://www.amazon.es/AZDelivery-D1-Mini-desarrollo-compatible/dp/B0754N794H)| Será el encargado de controlar el pulso del timbre y notificar a Alexa. |
+### ✨ Opcional
+<table style="width:100%">
+    <tr>
+    <td>
+    Octoacoplador 4n33
+	<a href="https://www.amazon.es/gp/product/B07MY3NZ18/ref=ppx_yo_dt_b_asin_image_o00_s00?ie=UTF8&psc=1">
+  		<img width="300" src="img/arduino/4n33.jpg">
+	</a>
+	</td>
+        <td>
+    200 Ohm
+	<a>
+  		<img width="300" src="img/arduino/200ohm.jpg">
+	</a>
+	</td>
+        <td>
+    1K Ohm
+	<a>
+  		<img width="300"  src="img/arduino/1kohm.jpg">
+	</a>
+	</td>
+</table>
 
+## 💿 Programas
+[![Source](https://img.shields.io/badge/arduino_ide-008184?style=for-the-badge&logo=cplusplus&logoColor=white&labelColor=101010)](https://www.arduino.cc/en/software)
+[![Source](https://img.shields.io/badge/Librería_PubSubClient-008184?style=for-the-badge&logo=github&logoColor=white&labelColor=101010)](https://github.com/knolleary/pubsubclient)
 
-### *Opcional
-|   |   |   |   |
-|---|---|---|---|
-| Octoacoplador 4n33 |<img src="img/arduino/4n33.jpg" width="50%"/>|[<img src="img/icos/carrito.png" width="20%"/>](https://www.amazon.es/AZDelivery-D1-Mini-desarrollo-compatible/dp/B0754N794H)| Comunicacion entre circuitos aislados, sirve para proteger nuestro Wemos de una bajada/subida de tensión |
-| 200 Ohm |<img src="img/arduino/200ohm.jpg" width="50%"/>|| Resistencia de 200 Ohm|
-| 1K Ohm |<img src="img/arduino/1kohm.jpg" width="50%"/>|| Resistencia de 1K Ohm |
+## 💾 Código
+[![Source](https://img.shields.io/badge/flash_doorbell.ino_with_arduino_ide-999999?style=for-the-badge&logo=github&logoColor=white&labelColor=101010)](https://github.com/danijerez/doorbell_alexa/tree/master/doorbell)
 
-# Software
-|   |   |   |
-|---|---|---|
-| Arduino IDE  |<img src="https://www.arduino.cc/en/pub/skins/arduinoWide/img/ArduinoAPP-01.svg" width="20%"/> | <a href="https://www.arduino.cc/en/main/software">descarga</a> |
-| Librería PubSubClient  |<img src="https://www.arduino.cc/en/pub/skins/arduinoWide/img/ArduinoAPP-01.svg" width="20%"/> | <a href="https://github.com/knolleary/pubsubclient">descarga</a> |
-
-# Herramientas
-
-### Necesarias para realizar la operación
-
-|   |   |   |
-|---|---|---|
-| PC + Arduino IDE  |<img src="img/tool/pc.jpg" width="20%"/> | Necesitaremos el IDE de Aduino:  <a href="https://www.arduino.cc/en/main/software">descarga</a> y un Pc al que conectarlo. |
-| estaño para soldar |<img src="img/tool/tin.jpg" width="20%"/> | Lo usaremos para soldar los componentes.  |
-| soldador de estaño |<img src="img/tool/welder.jpg" width="20%"/>  | Vale cualquier soldador, aunque recomiendo la marca JBC.  |
-| cable mini-usb  |<img src="img/tool/cab_micro_usb.jpg" width="20%"/>|Necesario para poder flashear el código al Wemos D1 Mini.|
-| clema x4  |<img src="img/tool/clema.jpg" width="20%"/>| Necesaria para conectar el circuito al timbre/corriente. |
-
-# Preparación
-
-Pasos previos antes de construir el dispositivo
+## 🎨 Preparación
 
 |   |   |   |
 |---|---|---|
@@ -58,9 +60,8 @@ Pasos previos antes de construir el dispositivo
 #define MQTT_CLIENT "device-Id"                 // Device Id from smartnest 
 ``` 
 
-# Proceso
+## 🧰 Tutorial
 
-El proceso que yo segui es el siguiente
 |   |   |   |
 |---|---|---|
 |  1 | <img src="https://www.arduino.cc/en/pub/skins/arduinoWide/img/ArduinoAPP-01.svg" width="30%"/>  | Instalar la libreria PubSubClient en el IDE - <a href="https://github.com/knolleary/pubsubclient">ver codigo</a> .  |
@@ -88,16 +89,12 @@ Yo utilice dos cagadores de moviles antiguos para solventar esto. Te recomiendo 
 
 * La instalación se puede hacer al lado del timbre/telefonillo
 
-# Pruebas
 
-Dejo algunos videos de prueba mientras hice el proyecto, espero que os guste!
+## 🧪 Testing
+[![YouTube](https://img.shields.io/badge/sample_1-FF0000?style=for-the-badge&logo=youtube&logoColor=white&labelColor=101010)](https://youtu.be/eLEP1y79GZg)
+[![YouTube](https://img.shields.io/badge/sample_2-FF0000?style=for-the-badge&logo=youtube&logoColor=white&labelColor=101010)](https://youtu.be/eLEP1y79GZg)
 
-|   |   | 
-|---|---|
-|[<img src="img/icos/youtube.png" width="20%"/>](https://youtu.be/0RNIjLOwQlc "test 1 - alexa doorbell")| Probando el funcionamiento del timbre con una pila|
-|[<img src="img/icos/youtube.png" width="20%"/>](https://youtu.be/eLEP1y79GZg "test 2 - alexa doorbell")| Probando el timbre simulando la pulsacion y conectado a la corriente |
-
-# Documentación
+## 💡 Documentación
 
 * https://www.youtube.com/watch?v=cgfVXPfCgkc
 * https://www.smartnest.cz
