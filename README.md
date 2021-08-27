@@ -44,7 +44,7 @@ Wemos D1 Mini
 
 ## 🎨 Preparación
 
-|   |   |   |
+|#|   |   |
 |---|---|---|
 |  0 | <img src="img/icos/smartnest.png" width="30%"/>  | Recomiendo ver el video tutorial del que me base donde viene todo el proceso explicado: https://www.youtube.com/watch?v=cgfVXPfCgkc  |
 |  1 | <img src="img/icos/smartnest.png" width="30%"/>  | Nos registramos en <a href="https://www.smartnest.cz/index/ES">Smartnest</a> y creamos un dispositivo Timbre  |
@@ -62,32 +62,29 @@ Wemos D1 Mini
 
 ## 🧰 Tutorial
 
-|   |   |   |
+|#|   |   |
 |---|---|---|
 |  1 | <img src="https://www.arduino.cc/en/pub/skins/arduinoWide/img/ArduinoAPP-01.svg" width="30%"/>  | Instalar la libreria PubSubClient en el IDE - <a href="https://github.com/knolleary/pubsubclient">ver codigo</a> .  |
 |  2 | <img src="https://www.arduino.cc/en/pub/skins/arduinoWide/img/ArduinoAPP-01.svg" width="30%"/>  | Flashear el codigo en el arduino nano - <a href="https://github.com/danijerez/doorbell_alexa/blob/master/doorbell/doorbell.ino">ver codigo</a> .  |
-|  3  | (opcional) |Seguimos el siguiente esquema para preparar el circuito que protegerá al Wemos D1 |
+|  3   |<img src="img/arduino/circuito.png" width="80%"/>| (opcional) Seguimos el siguiente esquema para preparar el circuito que protegerá al Wemos |
+|  4   |<img src="img/photos/foto1.jpg" width="80%"/>| * Si tu timbre tiene una salida de 230V tendras que poner un transformador (230v - 5v). Recuerda que el wemos D1 mini tambien tiene que estar alimentado por 5v en el pin 5v. Yo utilice dos cagadores de moviles antiguos para solventar esto. Te recomiendo que hagas algunas pruebas antes de instalar todo, como muestro en los videos. |
+|  4   |<img src="img/photos/foto6.jpg" width="80%"/>| * Este seria el resultado añadiendo un transformador mas   |
+|  5   |<img src="img/photos/foto7.jpg" width="80%"/>| * Puedes meter todo el conjunto en una caja si no quieres que se vea.   |
+|  6   |<img src="img/photos/foto8.jpg" width="80%"/>| * La instalación se puede hacer al lado del timbre/telefonillo   |
 
- <img src="img/arduino/circuito.png" width="80%"/> 
-
-* Si tu timbre tiene una salida de 230V tendras que poner un transformador (230v - 5v). Recuerda que el wemos D1 mini tambien tiene que estar alimentado por 5v en el pin 5v.
-Yo utilice dos cagadores de moviles antiguos para solventar esto. Te recomiendo que hagas algunas pruebas antes de instalar todo, como muestro en los videos.
 
 
-<img src="img/photos/foto1.jpg" width="20%"/> <img src="img/photos/foto2.jpg" width="30%"/> <img src="img/photos/foto3.jpg" width="30%"/>  
 
-<img src="img/photos/foto4.jpg" width="20%"/><img src="img/photos/foto5.jpg" width="40%"/>   
 
-* Este seria el resultado añadiendo un transformador mas
 
-<img src="img/photos/foto6.jpg" width="40%"/>   
 
-* Puedes meter todo el conjunto en una caja si no quieres que se vea.
+ 
 
-<img src="img/photos/foto7.jpg" width="40%"/>   
-<img src="img/photos/foto8.jpg" width="37%"/>   
 
-* La instalación se puede hacer al lado del timbre/telefonillo
+
+
+
+
 
 
 ## 🧪 Testing
