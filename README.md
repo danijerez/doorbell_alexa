@@ -39,6 +39,9 @@ Wemos D1 Mini
 [![Source](https://img.shields.io/badge/arduino_ide-008184?style=for-the-badge&logo=cplusplus&logoColor=white&labelColor=101010)](https://www.arduino.cc/en/software)
 [![Source](https://img.shields.io/badge/Librería_PubSubClient-008184?style=for-the-badge&logo=github&logoColor=white&labelColor=101010)](https://github.com/knolleary/pubsubclient)
 
+## 🍪 URL Tarjetas adicionales
+http://arduino.esp8266.com/stable/package_esp8266com_index.json
+
 ## 💾 Código
 [![Source](https://img.shields.io/badge/flash_doorbell.ino_with_arduino_ide-999999?style=for-the-badge&logo=github&logoColor=white&labelColor=101010)](https://github.com/danijerez/doorbell_alexa/tree/master/doorbell)
 
